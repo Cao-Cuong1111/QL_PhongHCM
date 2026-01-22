@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  OFFLINE FONTS INSTRUCTIONS:
+  1. Download 'Inter' font family from Google Fonts.
+  2. Place .woff2 files in src/assets/fonts/
+  3. Uncomment and adjust the @font-face rules below:
+*/
+
+/*
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+*/
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6; /* bg-gray-100 */
+}
